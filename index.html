@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Meme Generator</title>
+				<link rel="preconnect" href="https://fonts.gstatic.com">
+				<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+				<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+			<div class="memes-title">
+				<h1>I CAN HAZ MEMEZ?</h1>
+				<p>Fill out the form to start creating memes!</p>
+			</div>
+			<div class="grid-container">
+				<div class="grid-item grid-label">
+					<label for="imageURL">Image URL: </label>
+				</div>
+				<div class="grid-item grid-input">
+					<input type="text" id="imageURL"/>
+				</div>
+				<div class="grid-item grid-label">
+					<label for="topText">Text On Top: </label>
+				</div>
+				<div class="grid-item grid-input">
+				<input type="text" id="top-text"/>
+				</div>
+				<div class="grid-item grid-label">
+					<label for="bottomText">Text On Bottom: </label>
+				</div>
+				<div class="grid-item grid-input">
+					<input type="text" id="bottom-text"/>
+				</div>
+				<div></div>
+				<div class="grid-button">
+					<input type="button" id="generate-btn" value="Generate!"/>
+				</div>
+			</div>
+			<div class="meme-container">
+			</div>
+        <script src="script.js"></script>
+    </body>
+</html>
